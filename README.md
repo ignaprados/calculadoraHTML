@@ -1,5 +1,5 @@
 # calculadora
-Calculadora JS
+Calculadora JavaScript.
 <br><br>
  Creador: Ignacio Prados.
  <br><br>
