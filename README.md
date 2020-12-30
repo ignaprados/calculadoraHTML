@@ -1,6 +1,4 @@
 # calculadora
-
-<br><br>
  Creador: Ignacio Prados.
  <br><br>
  Key Technologies used: HTML5 - CSS3 - JavaScript
