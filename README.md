@@ -1,3 +1,4 @@
+![banner](https://raw.githubusercontent.com/IgnacioPrados/web/gh-pages/assets/img/work3.JPG)
 # calculadora
  Creador: Ignacio Prados.
  <br><br>
@@ -5,6 +6,3 @@
  
  https://ignacioprados.github.io/calculadora
  
- ## Preview
-
-![banner](https://raw.githubusercontent.com/IgnacioPrados/web/gh-pages/assets/img/work3.JPG)
