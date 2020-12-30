@@ -8,15 +8,17 @@
 		<link rel="stylesheet" type="text/css" href="calc.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
 		<link  rel="icon"   href="assets/img/favicon.png" type="image/png" />
+
+		<!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
 		<title>Calculadora</title>
 
     </head>
     <body>
-        <h1>
-        Calculadora
-        </h1>
+        <h1>Calculadora</h1>
 		<div class="calcu">
 			<form id="calcForm" name="calc">
 				<input type="" name="display" class="dis" type="number"> <br>
@@ -40,14 +42,19 @@
 				<input type="button" value="0" onclick="calc.display.value+='0'">
 				<input type="button" class="equal" value="=" onclick="calc.display.value=eval(calc.display.value)">
 				<input type="button" class="divide" value="&#247;" onclick="calc.display.value+='/'">
-				<p>Dev. by <a href="https://ignacioprados.github.io/web/" target="blank">Ignacio Prados</a></p>
+				<p id="cred"><a href="https://ignacioprados.github.io/web/" target="blank">Dev. by Ignacio Prados</a></p>
 
 			</form>
 		</div>
-		<a href="https://ignacioprados.github.io/web/" class="link" target="_blank"><img src="./assets/img/logo.png" class="logo"></a>
+		<img src="./assets/img/logo.png" class="logo">
 
         <!--===== FOOTER =====-->
         <footer class="footer">
+			<div class="footer__social">
+                <a href="https://www.linkedin.com/in/ignacioprados/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/IgnacioPrados" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+				<a href="mailto:ignacioprados.ip@gmail.com" target="_blank" class="footer__icon"><i class='bx bx-envelope' ></i></a>
+				<a href="https://ignacioprados.github.io/web/" target="_blank" class="footer__icon"><i class='bx bx-desktop' ></i></a></div>
             <p>&#169; 2020 copyright todos los derechos reservados.</p>
         </footer>
 
