@@ -1,8 +1,21 @@
 html{
-	background: linear-gradient(to bottom,rgb(31, 31, 31),rgb(36, 36, 36));
-	background-color: rgb(36, 36, 36);
 	background-repeat: repeat-x;
 	background-size: cover;
+	background: linear-gradient(-45deg, #DDE0DA, #00DEF9, #FA0080, #000000) ;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+	@keyframes gradient {
+    0% {
+    	background-position: 0% 50%;
+    }
+    50% {
+    	background-position: 100% 50%;
+    }
+    100% {
+    	background-position: 0% 50%;
+    }
 }
 
 body{
@@ -65,7 +78,7 @@ input:not(.dis):active{
 #calcForm {
 	display: inline-block;
 	text-align: center;
-	background-color: #000000;
+	background: linear-gradient(-45deg, #000000, #131313, #242424, hsl(0, 0%, 0%)) ;
 	border-radius: 20px;
 	-webkit-box-shadow: 0px 0px 75px -13px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 75px -13px rgba(0,0,0,0.75);
@@ -85,81 +98,87 @@ h1 {
 	font-size: 4.4em;
 	margin: 3%;
 	color: white;
+	text-shadow:
+	-2px -2px 0 #000,
+	2px -2px 0 #000,
+	-2px 2px 0 #000,
+	2px 2px 0 #000;
 }
 
 
 .plus {
-	background-color: #b1a3ff;
+	background-color: #00DEF9;
 	color: rgb(255, 255, 255);
-	border-bottom:   #8c81ca solid 5px;
+	border-bottom:   #0fb4ca solid 5px;
 }
 .plus:hover{
-	background-color: #9380ff;
-	border-bottom:   #7267b1 solid 5px;
+	background-color: #00aac0;
+	border-bottom:   #0891a3 solid 5px;
 }
 .plus:active{
 	transform: scale(0.95);
-	border-bottom:   #7267b1 solid 3px;
+	border-bottom:   #979797 solid 3px;
 }
 
 .minus {
-	background-color: #b1a3ff;
+	background-color: #00DEF9;
 	color: rgb(255, 255, 255);
-	border-bottom:   #8c81ca solid 5px;
+	border-bottom:   #0fb4ca solid 5px;
 }
 .minus:hover{
-	background-color: #9380ff;
-	border-bottom:   #7267b1 solid 5px;
+	background-color: #00aac0;
+	border-bottom:   #0891a3 solid 5px;
 }
 .minus:active{
 	transform: scale(0.95);
-	border-bottom:   #7267b1 solid 3px;
+	border-bottom:   #0891a3 solid 3px;
 }
 
 .times {
-	background-color: #b1a3ff;
+	background-color: #00DEF9;
 	color: rgb(255, 255, 255);
-	border-bottom:   #8c81ca solid 5px;
+	border-bottom:   #0fb4ca solid 5px;
 }
 .times:hover{
-	background-color: #9380ff;
-	border-bottom:   #7267b1 solid 5px;
+	background-color: #00aac0;
+	border-bottom:   #0891a3 solid 5px;
 }
 .times:active{
 	transform: scale(0.95);
-	border-bottom:   #7267b1 solid 3px;
+	border-bottom:   #0891a3 solid 3px;
 }
 
 .divide {
-	background-color: #b1a3ff;
+	background-color: #00DEF9;
 	color: rgb(255, 255, 255);
-	border-bottom:   #8c81ca solid 5px;
+	border-bottom:   #0fb4ca solid 5px;
 }
 .divide:hover{
-	background-color: #9380ff;
-	border-bottom:   #7267b1 solid 5px;
+	background-color: #00aac0;
+	border-bottom:   #0891a3 solid 5px;
 }
 .divide:active{
 	transform: scale(0.95);
-	border-bottom:   #7267b1 solid 3px;
+	border-bottom:   #0891a3 solid 3px;
 }
 
 .clear {
-	background-color: #fd6161;
-	border-bottom:  #aa4c4c solid 5px;
+	background-color: #FA0080;
+	border-bottom:  #b1005b solid 5px;
 }
 .clear:hover{
-	background-color: #cc2929;
-	border-bottom:  #743434 solid 5px;
+	background-color: #bd0061;
+	border-bottom:  #92004b solid 5px;
 }
 
 .equal {
-	background-color: #6ae49a;
-	border-bottom:  #60b467 solid 5px;
+	color: #000000;
+	background-color: #f5f5f5;
+	border-bottom:  #bbbbbb solid 5px;
 }
 .equal:hover{
-	background-color: #3dc975;
-	border-bottom:  #458f4b solid 5px;
+	background-color: #c4c4c4;
+	border-bottom:  #969696 solid 5px;
 }
 
 /* ===== FOOTER =====*/
